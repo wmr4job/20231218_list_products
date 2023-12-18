@@ -21,6 +21,5 @@ while True:
 	# way3
 	products.append([name, price]) # 存每個品項+價格
 
-print(products)
-print(products[1][0]) #印出第2個商品的名字
-print(products[1][1]) #印出第2個商品的價格
+for item in products:
+	print(item[0], '的價格是', item[1])
